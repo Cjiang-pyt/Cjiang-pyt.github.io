@@ -302,7 +302,8 @@ details[open]>summary{color:var(--accent)}
   .wrap{width:calc(100% - 40px)}
   .nav-inner{flex-wrap:wrap;gap:8px;padding-block:12px;min-height:0}
   .brand{font-size:22px}
-  .nav-links{width:100%;gap:0 20px;flex-wrap:wrap}
+  .nav-links{width:100%;gap:0 20px;flex-wrap:nowrap;overflow-x:auto;white-space:nowrap;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .nav-links::-webkit-scrollbar{display:none}
   .nav-links a{font-size:13.5px}
   .nav-links .nav-cta{border:0;padding:0;color:var(--accent);font-weight:500}
   .nav-links .nav-cta:hover{background:none;color:var(--accent-dark)}
