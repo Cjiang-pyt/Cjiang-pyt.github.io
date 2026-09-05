@@ -25,4 +25,7 @@
 - Email: changchuan.jiang@utsouthwestern.edu
 
 ## Advisory areas
-Clinical development and trial strategy (GU oncology); market access, HEOR, and US payer policy (Medicare Advantage, Part D, prior authorization); real-world evidence design (Flatiron Health, ConcertAI, SEER-Medicare, Epic Cosmos); AI in the oncology workflow; supportive care and care delivery; teaching and speaking.
+1. Trial feasibility and patient access (clinical development teams, CROs, trial networks): protocol feasibility, enrollment barrier assessment, referral and screening workflows, community and safety-net site activation.
+2. Evidence, access, and payer strategy (medical affairs, RWE, HEOR, market access): research concept review, observational design with Flatiron Health, ConcertAI, SEER-Medicare, Epic Cosmos; Medicare Advantage and Part D benefit design, utilization management, drug pricing and shortages, financial toxicity.
+3. Clinical workflow, AI, and supportive care (oncology technology, clinical AI, care delivery teams): use-case review, workflow assessment, pilot evaluation frameworks, patient-facing communication design.
+Also: research collaborations, grand rounds, CME, and speaking. Engagements are independent of institutional roles and subject to institutional disclosure requirements.

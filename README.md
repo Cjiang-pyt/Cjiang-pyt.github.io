@@ -3,6 +3,7 @@
 Static single-page site, no build step. Deployed with GitHub Pages from the `main` branch root.
 
 - `index.html` — the page (all CSS inline; fonts from Google Fonts)
+- `headshot.jpg` — square portrait (UT Southwestern photo), also used as the social preview image
 - `llms.txt` — machine-readable summary for search and AI assistants
 - `.nojekyll` — tells GitHub Pages to serve files as-is
 
