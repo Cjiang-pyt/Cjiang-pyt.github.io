@@ -1,0 +1,20 @@
+# Charles Jiang, MD, MPH
+
+> Changchuan (Charles) Jiang is a genitourinary medical oncologist and health services researcher at UT Southwestern Medical Center (Harold C. Simmons Comprehensive Cancer Center) and Parkland Health in Dallas, Texas. Assistant Professor of Internal Medicine (Hematology/Oncology) and in the Peter O'Donnell Jr. School of Public Health.
+
+## Focus areas
+- Clinical trial access and equity: leads UT Southwestern's prostate cancer clinical trial access program across a county safety-net hospital (Parkland Health) and community sites, supported by the American Cancer Society (IMPACT Special Initiative Award, PI). Director, GU Clinical Trial Optimization, Parkland Cancer Center. Conquer Cancer Foundation/ASCO Career Development Award on physician-level factors in trial enrollment. Robert A. Winn Excellence in Clinical Trials CDA.
+- Supportive care and health access: Co-Chair, Health Access and Disparities Committee, Multinational Association of Supportive Care in Cancer (MASCC). Research on transportation barriers, financial hardship, palliative care value, and supportive-care drug access.
+- Insurance design and cancer care delivery: zero-premium Medicare Advantage plans, plan benefit design, prior authorization, oncologist networks, Part D formulary access, Medicaid expansion.
+- AI in the oncology workflow: PI of an NCCN/Pfizer quality improvement award embedding reflex biomarker testing and a molecular-actionability dashboard in the EHR at a safety-net cancer program; member of the UTSW Simmons Cancer Center AI Steering Committee; LLM-generated plain-language trial summaries; scholarship on value alignment and licensure of clinical AI.
+
+## Links
+- Homepage: https://cjiang-pyt.github.io/
+- Google Scholar: https://scholar.google.com/citations?user=oi1O0T8AAAAJ
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=Jiang+Changchuan%5BAuthor%5D
+- X: https://x.com/CharlesJiangMD
+- Clinical profile: https://utswmed.org/doctors/charles-jiang/
+- Email: changchuan.jiang@utsouthwestern.edu
+
+## Advisory areas
+Clinical development and trial strategy (GU oncology); market access, HEOR, and US payer policy (Medicare Advantage, Part D, prior authorization); real-world evidence design (Flatiron Health, ConcertAI, SEER-Medicare, Epic Cosmos); AI in the oncology workflow; supportive care and care delivery; teaching and speaking.
