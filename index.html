@@ -10,9 +10,8 @@
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Charles Jiang, MD, MPH">
 <meta property="og:description" content="Genitourinary medical oncologist and health services researcher. Clinical trial access, supportive care, insurance design, and AI in the oncology workflow.">
-<meta property="og:image" content="https://cjiang-pyt.github.io/headshot.jpg">
 <meta property="og:url" content="https://cjiang-pyt.github.io/">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@CharlesJiangMD">
 <meta name="theme-color" content="#F4EFE4">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%2314212B'/%3E%3Ctext x='50%25' y='56%25' dominant-baseline='middle' text-anchor='middle' font-family='Georgia,serif' font-size='34' fill='%23F4EFE4'%3ECJ%3C/text%3E%3C/svg%3E">
@@ -28,7 +27,6 @@
   "honorificSuffix": "MD, MPH",
   "jobTitle": "Assistant Professor of Internal Medicine and Public Health",
   "description": "Genitourinary medical oncologist and health services researcher studying insurance design, clinical trial access, supportive care, and AI in the oncology workflow.",
-  "image": "https://cjiang-pyt.github.io/headshot.jpg",
   "url": "https://cjiang-pyt.github.io/",
   "email": "mailto:changchuan.jiang@utsouthwestern.edu",
   "worksFor": [
@@ -98,21 +96,19 @@ h1,h2,h3,h4{font-family:var(--serif);font-weight:400;margin:0;line-height:1.1;le
 
 /* hero */
 .hero{padding:64px 0 48px;position:relative}
-.hero .wrap{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:64px;align-items:center}
-.hero h1{font-size:clamp(40px,5.6vw,76px);font-variation-settings:"opsz" 144,"SOFT" 40;line-height:1.02;margin:22px 0 28px}
+.hero .wrap{max-width:980px;margin-left:0}
+.hero h1{font-size:clamp(40px,6vw,84px);max-width:16ch;font-variation-settings:"opsz" 144,"SOFT" 40;line-height:1.02;margin:22px 0 28px}
 .hero h1 em{font-style:italic;color:var(--accent);font-variation-settings:"opsz" 144,"SOFT" 100}
-.lede{font-size:20px;line-height:1.55;color:var(--ink-2);max-width:60ch;margin-bottom:30px}
+.lede{font-size:20px;line-height:1.55;color:var(--ink-2);max-width:62ch;margin-bottom:18px}
+.roles{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);line-height:1.9;max-width:70ch;margin-bottom:30px}
+.roles b{color:var(--ink);font-weight:500}
 .lede strong{color:var(--ink);font-weight:500}
 .links{display:flex;flex-wrap:wrap;gap:10px 14px;font-family:var(--mono);font-size:12.5px;letter-spacing:.06em}
 .links a{border:1px solid var(--ink);padding:9px 14px;border-radius:999px;transition:background .2s,color .2s}
 .links a:hover{background:var(--ink);color:var(--paper)}
 .links a.primary{background:var(--accent);border-color:var(--accent);color:#fff}
 .links a.primary:hover{background:#933a16}
-.portrait{position:relative}
-.portrait img{display:block;width:100%;aspect-ratio:640/686;object-fit:cover;border-radius:4px;filter:saturate(.92) contrast(1.02)}
-.portrait::before{content:"";position:absolute;inset:14px -14px -14px 14px;border:1px solid var(--accent);border-radius:4px;z-index:-1}
-.portrait figcaption{margin-top:14px;font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);line-height:1.7}
-@media(max-width:820px){.hero{padding:40px 0 40px}.hero .wrap{grid-template-columns:1fr;gap:28px}.portrait{max-width:180px;order:-1}.portrait figcaption{display:none}}
+@media(max-width:820px){.hero{padding:40px 0 40px}}
 
 /* stats */
 .stats{border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);margin-top:20px}
@@ -147,6 +143,16 @@ section{padding:84px 0 24px}
 .area .pubs a{border-bottom:1px solid var(--rule);transition:border-color .2s,color .2s}
 .area .pubs a:hover{color:var(--accent);border-color:var(--accent)}
 @media(max-width:820px){.focus{grid-template-columns:1fr}}
+
+/* pipeline */
+.pipe{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--rule);border:1px solid var(--rule)}
+.pipe .item{background:var(--card);padding:22px 24px;display:grid;grid-template-columns:1fr auto;gap:10px 16px;align-items:start}
+.pipe .item h4{font-family:var(--serif);font-size:19px;font-weight:400;line-height:1.25;font-variation-settings:"opsz" 48,"SOFT" 30}
+.pipe .item p{grid-column:1/-1;margin:0;font-size:14.5px;color:var(--ink-2);line-height:1.5}
+.pipe .st{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;padding:4px 8px;border:1px solid var(--rule);border-radius:999px;color:var(--ink-3);white-space:nowrap}
+.pipe .st.rev{color:var(--accent);border-color:var(--accent)}
+.pipe .st.on{color:var(--accent-2);border-color:var(--accent-2)}
+@media(max-width:820px){.pipe{grid-template-columns:1fr}}
 
 /* perspectives */
 .theses{counter-reset:t;display:grid;gap:0}
@@ -264,6 +270,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
     <a class="brand" href="#top">Charles Jiang<span>.</span></a>
     <ul>
       <li><a href="#focus">Focus</a></li>
+      <li><a href="#pipeline">Pipeline</a></li>
       <li><a href="#perspectives">Perspectives</a></li>
       <li><a href="#publications">Publications</a></li>
       <li><a href="#advisory">Work with me</a></li>
@@ -276,22 +283,17 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 
 <header class="hero" id="top">
   <div class="wrap">
-    <div>
-      <div class="eyebrow">Changchuan (Charles) Jiang, MD, MPH <b>·</b> UT Southwestern Medical Center <b>·</b> Dallas, Texas</div>
-      <h1>Access to cancer care is <em>designed.</em> I study the design, and rebuild it where it fails patients.</h1>
-      <p class="lede">I am a <strong>genitourinary medical oncologist</strong> and <strong>health services researcher</strong>. My clinic spans an NCI-designated cancer center and a county safety-net hospital, and my research follows the same patients through insurance benefit files, clinical trial referral patterns, supportive care access, and the AI tools now entering the oncology workflow.</p>
-      <div class="links">
-        <a class="primary" href="#advisory">Advisory &amp; collaboration</a>
-        <a href="https://scholar.google.com/citations?user=oi1O0T8AAAAJ" target="_blank" rel="noopener">Google Scholar</a>
-        <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Jiang+Changchuan%5BAuthor%5D&sort=date" target="_blank" rel="noopener">PubMed</a>
-        <a href="https://www.linkedin.com/in/changchuan-charles-jiang-54787080/" target="_blank" rel="me noopener">LinkedIn</a>
-        <a href="https://x.com/CharlesJiangMD" target="_blank" rel="me noopener">X / @CharlesJiangMD</a>
-      </div>
+    <div class="eyebrow">Changchuan (Charles) Jiang, MD, MPH <b>·</b> UT Southwestern Medical Center <b>·</b> Dallas, Texas</div>
+    <h1>Access to cancer care is <em>designed.</em> I study the design, and rebuild it where it fails patients.</h1>
+    <p class="lede">I am a <strong>genitourinary medical oncologist</strong> and <strong>health services researcher</strong>. My clinic spans an NCI-designated cancer center and a county safety-net hospital, and my research follows the same patients through clinical trial referral patterns, supportive care access, insurance benefit files, and the AI tools now entering the oncology workflow.</p>
+    <p class="roles"><b>Assistant Professor,</b> Internal Medicine (Hematology/Oncology) and O'Donnell School of Public Health · <b>Attending Physician,</b> Parkland Health · <b>Co-Chair,</b> MASCC Health Access and Disparities Committee · <b>Director,</b> GU Clinical Trial Optimization, Parkland Cancer Center</p>
+    <div class="links">
+      <a class="primary" href="#advisory">Advisory &amp; collaboration</a>
+      <a href="https://scholar.google.com/citations?user=oi1O0T8AAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Jiang+Changchuan%5BAuthor%5D&sort=date" target="_blank" rel="noopener">PubMed</a>
+      <a href="https://www.linkedin.com/in/changchuan-charles-jiang-54787080/" target="_blank" rel="me noopener">LinkedIn</a>
+      <a href="https://x.com/CharlesJiangMD" target="_blank" rel="me noopener">X / @CharlesJiangMD</a>
     </div>
-    <figure class="portrait">
-      <img src="headshot.jpg" alt="Portrait of Dr. Charles Jiang in a white coat at UT Southwestern Medical Center" width="640" height="686">
-      <figcaption>Assistant Professor, Internal Medicine (Hematology/Oncology) and O'Donnell School of Public Health<br>Attending Physician, Parkland Health · Co-Chair, MASCC Health Access and Disparities Committee</figcaption>
-    </figure>
   </div>
 </header>
 
@@ -316,7 +318,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
       <article class="area rv">
         <div class="k"><span>Clinical trial access</span><span>Intervention</span></div>
         <h3>Getting underrepresented patients onto prostate cancer trials</h3>
-        <p class="role">I lead UT Southwestern's prostate cancer clinical trial access program across a county safety-net hospital (Parkland Health) and community regional sites, supported by the American Cancer Society. The work targets the referral step, where most enrollment is lost.</p>
+        <p class="role">I lead UT Southwestern's prostate cancer clinical trial access program across a county safety-net hospital (Parkland Health) and community regional sites, supported by the American Cancer Society. The work targets the referral step, where most enrollment is lost, and pairs it with national real-world analyses of why some physicians and practices enroll and others do not.</p>
         <ul>
           <li><b>Principal Investigator, ACS IMPACT Special Initiative</b> (2025–2027): site-specific barrier removal, navigation, and physician engagement at Parkland and UTSW regional centers.</li>
           <li><b>Director, GU Clinical Trial Optimization,</b> Parkland Cancer Center. Redesigned the physician-facing referral workflow and patient-facing plain-language trial summaries; navigation and physician-engagement programs doubled enrollment of underrepresented patients.</li>
@@ -331,7 +333,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
       <article class="area rv">
         <div class="k"><span>Supportive care &amp; access</span><span>MASCC</span></div>
         <h3>Supportive care as an access problem, not an afterthought</h3>
-        <p class="role">As Co-Chair of the Health Access and Disparities Committee of the Multinational Association of Supportive Care in Cancer (MASCC), I work on who gets palliative care, symptom management, and the practical support that keeps people in treatment.</p>
+        <p class="role">As Co-Chair of the Health Access and Disparities Committee of the Multinational Association of Supportive Care in Cancer (MASCC), where I have served since 2023, I work on who gets palliative care, symptom management, and the practical support that keeps people in treatment.</p>
         <ul>
           <li><b>Transportation barriers:</b> cancer survivors who delay care for lack of transportation have roughly twice the mortality risk. Two papers (JAMA Oncology, JNCI) that moved transportation from a social-work footnote to a measurable outcome driver.</li>
           <li><b>Financial hardship and social needs:</b> medical financial hardship and mortality; food, housing, and transportation insecurity among survivors; international surveys of financial toxicity in supportive care.</li>
@@ -344,8 +346,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 
       <article class="area rv">
         <div class="k"><span>Insurance design &amp; delivery</span><span>Health services research</span></div>
-        <h3>What a zero-premium plan costs a patient with cancer</h3>
-        <p class="role">Medicare Advantage now covers most beneficiaries, and zero-premium plans dominate that market. I link plan benefit files, formularies, claims, and registry data to measure what the front-end savings trade away at the back end: networks, prior authorization, and time to treatment.</p>
+        <h3>How benefit design shapes cancer care delivery</h3>
+        <p class="role">Medicare Advantage now covers most beneficiaries, and zero-premium plans dominate that market. I link plan benefit files, formularies, claims, and registry data to measure how plan design relates to networks, prior authorization, supportive medication access, and time to treatment for patients with cancer.</p>
         <ul>
           <li><b>Zero-premium Medicare Advantage:</b> growth concentrated in counties with high cancer mortality (JNCI 2026); trends in socioeconomically vulnerable areas (Health Affairs Scholar 2025); access to generic abiraterone and imatinib (Health Affairs Scholar 2026).</li>
           <li><b>Plan design and cancer care:</b> primary care cost sharing in MA (JAMA Health Forum 2026); oncologist networks under MA plans (JAMA Network Open 2026); delayed novel hormonal therapy for metastatic prostate cancer in MA versus traditional Medicare (JCO Oncology Practice 2026).</li>
@@ -374,47 +376,106 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
   </div>
 </section>
 
+<section id="pipeline">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="num">02 / In the pipeline</div>
+      <h2>Work under review and under way</h2>
+      <p>Where the clinical trial access and AI work stands right now. Findings from manuscripts under review are summarized at the level already presented at national meetings.</p>
+    </div>
+    <div class="pipe rv">
+      <div class="item">
+        <h4>Variation in clinical trial enrollment among physicians and practices in community oncology</h4>
+        <span class="st rev">Under review</span>
+        <p>National EHR-derived cohort (Flatiron Health, 2010–2024): 205,743 patients with advanced solid tumors, 1,664 physicians, 107 trial-active practices. Enrollment 5.3%. Physician- and practice-level factors explain more variation than patient factors; 20% of physicians account for 80% of enrollments. Core deliverable of the ASCO Career Development Award; abstracts presented at the 2025 ASCO Quality Care Symposium.</p>
+      </div>
+      <div class="item">
+        <h4>Racial and ethnic disparities in trial enrollment across community practices</h4>
+        <span class="st rev">Under review</span>
+        <p>Companion analysis asking whether enrollment gaps for Black and Hispanic patients persist after accounting for the physician and practice they see, and how much of the gap is explained by where care happens rather than who the patient is.</p>
+      </div>
+      <div class="item">
+        <h4>Large language models across the oncology clinical trial lifecycle: a scoping review</h4>
+        <span class="st rev">Under review</span>
+        <p>PRISMA-ScR review of peer-reviewed LLM applications from eligibility screening to data extraction. Of 2,546 records, 17 studies qualified, all retrospective or benchmark-based; none evaluated a tool prospectively inside a live trial workflow. Sets priorities for prospective, equity-focused evaluation.</p>
+      </div>
+      <div class="item">
+        <h4>Two commentaries on clinical AI: value alignment, and licensing autonomous systems</h4>
+        <span class="st rev">Under review</span>
+        <p>One argues that the larger risk of guideline-aligned LLM decision support in oncology is value flattening for preference-sensitive decisions; the other that a licensure model for autonomous clinical AI needs a change taxonomy and regression testing, because the licensed object keeps changing.</p>
+      </div>
+      <div class="item">
+        <h4>Prostate cancer trial access program at Parkland Health and UTSW regional sites</h4>
+        <span class="st on">Ongoing · ACS IMPACT</span>
+        <p>Site-specific barrier removal: navigation and travel support at community sites, a dedicated GU coordinator and physician workflow redesign at the safety-net hospital. Physician-facing referral tools and patient-facing plain-language trial summaries are deployed; enrollment of underrepresented patients is the primary outcome.</p>
+      </div>
+      <div class="item">
+        <h4>Closing the biomarker test-to-treatment loop in metastatic prostate cancer</h4>
+        <span class="st on">Ongoing · NCCN</span>
+        <p>Epic-embedded reflex germline and somatic sequencing, ctDNA salvage when tissue fails, and a molecular-actionability dashboard tied to a multidisciplinary huddle, with Black and Hispanic patients pre-specified as the index population for every process and outcome metric.</p>
+      </div>
+      <div class="item">
+        <h4>Physician behavior and trial referral: COM-B interviews</h4>
+        <span class="st on">Ongoing · ASCO CDA</span>
+        <p>Qualitative interviews with community and academic oncologists using the Capability, Opportunity, Motivation model to explain why some physicians refer and others do not, feeding the design of referral-step interventions.</p>
+      </div>
+      <div class="item">
+        <h4>Patient preferences for cancer care access and trial participation</h4>
+        <span class="st on">Ongoing · DCE</span>
+        <p>Discrete choice experiments quantifying how patients trade off travel, visit burden, cost, placebo risk, and expected benefit when deciding about treatment and trial participation, to inform how trials are offered and explained.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="perspectives">
   <div class="wrap">
     <div class="sec-head rv">
-      <div class="num">02 / Perspectives</div>
+      <div class="num">03 / Perspectives</div>
       <h2>How I think about it</h2>
-      <p>Five positions that run through the research, the clinic, and the advisory work. Each is falsifiable, and each has data behind it.</p>
+      <p>Six positions that run through the research, the clinic, and the advisory work. Each has data behind it, most of it from national real-world cohorts and from running a trial access program at a county hospital.</p>
     </div>
     <div class="theses">
       <div class="thesis rv">
         <div class="idx"></div>
         <div>
-          <h3>Free is expensive.</h3>
-          <p>A zero-premium plan does not remove cost; it moves cost from the premium to access. The plans grow fastest where cancer mortality is highest, and the patients who choose them on price are the ones least able to absorb a narrow network or a prior-authorization delay.</p>
+          <h3>Most of what decides trial enrollment is structural.</h3>
+          <p>Fewer than one in twenty patients in community oncology enroll in a therapeutic trial. In our national analysis of more than 200,000 patients, physician- and practice-level factors explained more of the variation in enrollment than patient characteristics did, and their share has grown over the past decade. Willingness is not the constraint. Infrastructure is.</p>
         </div>
       </div>
       <div class="thesis rv">
         <div class="idx"></div>
         <div>
-          <h3>Insurance design has toxicities. Monitor them like drug toxicities.</h3>
-          <p>Prior authorization, network breadth, formulary tiers, and quantity limits are active ingredients with dose-response effects on time to treatment and survival. We grade chemotherapy toxicity in every note. We should be able to grade plan toxicity at the county level.</p>
+          <h3>The referral is the intervention.</h3>
+          <p>A fifth of physicians generate four fifths of enrollments, and close to a third of physicians in trial-active practices enroll no one. Screening support, navigation, and workflow design around the referring oncologist move that number. Awareness campaigns alone do not.</p>
         </div>
       </div>
       <div class="thesis rv">
         <div class="idx"></div>
         <div>
-          <h3>The trial enrollment bottleneck is the referral, not the patient.</h3>
-          <p>When a trial is actually offered, most patients, including Black and Hispanic patients, will consider it. Enrollment concentrates in a small minority of physicians. Fix the workflow around the referring oncologist before spending another dollar on awareness campaigns.</p>
+          <h3>In the safety net, access is a workflow problem before it is a trust problem.</h3>
+          <p>At a county hospital the missing step is usually a coordinator, a reflex test order, an interpreter, or a ride, not a patient's refusal. Mapping barriers site by site, then removing the specific one, has done more for enrollment of Black and Hispanic patients in our program than any general diversity plan.</p>
         </div>
       </div>
       <div class="thesis rv">
         <div class="idx"></div>
         <div>
           <h3>Patients remember logistics, not mechanisms.</h3>
-          <p>In our interviews, what patients retain from a trial conversation is how many visits, how many rides, whether there is a placebo, and who pays. A one-page summary that answers those questions does more for informed consent than a thirty-page document.</p>
+          <p>What patients retain from a trial conversation is how many visits, how many rides, whether there is a placebo, and who pays. A one-page summary that answers those questions does more for informed consent than a thirty-page document, and it is the tool we now hand out at the point of referral.</p>
         </div>
       </div>
       <div class="thesis rv">
         <div class="idx"></div>
         <div>
-          <h3>The larger risk of clinical AI is value flattening, not hallucination.</h3>
-          <p>Models tuned to majority preference treat a patient who prioritizes his hands over three months of median survival as an error to correct. AI in oncology should be evaluated inside real workflows, with preference-concordant care and equity as endpoints, and governed with a change taxonomy rather than a one-time exam.</p>
+          <h3>Benefit design is a clinical variable.</h3>
+          <p>Which plan a patient holds shapes which oncologists are in reach, which supportive medications need prior authorization, and how quickly treatment starts. It belongs in the same conversation as stage and biomarker status, and it can be measured with the same rigor.</p>
+        </div>
+      </div>
+      <div class="thesis rv">
+        <div class="idx"></div>
+        <div>
+          <h3>AI earns its place inside the workflow, not on a benchmark.</h3>
+          <p>Nearly every published use of large language models in oncology trials has been evaluated retrospectively on curated data. The tools worth adopting are the ones tested in a live clinic, with enrollment, time to treatment, and equity as the endpoints, and with the patient's own priorities kept in the loop.</p>
         </div>
       </div>
     </div>
@@ -424,7 +485,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 <section id="toolkit">
   <div class="wrap">
     <div class="sec-head rv">
-      <div class="num">03 / Toolkit</div>
+      <div class="num">04 / Toolkit</div>
       <h2>What I bring to a project</h2>
     </div>
     <div class="toolkit rv">
@@ -462,7 +523,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 <section id="publications">
   <div class="wrap">
     <div class="sec-head rv">
-      <div class="num">04 / Selected publications</div>
+      <div class="num">05 / Selected publications</div>
       <h2>Representative work</h2>
       <p>Grouped by theme rather than by date. First or senior authorship is marked. The full record is on <a href="https://scholar.google.com/citations?user=oi1O0T8AAAAJ" target="_blank" rel="noopener" style="border-bottom:1px solid var(--rule)">Google Scholar</a> and <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Jiang+Changchuan%5BAuthor%5D&sort=date" target="_blank" rel="noopener" style="border-bottom:1px solid var(--rule)">PubMed</a>.</p>
     </div>
@@ -522,7 +583,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 <section class="advisory" id="advisory">
   <div class="wrap">
     <div class="rv">
-      <div class="eyebrow">05 / Work with me</div>
+      <div class="eyebrow">06 / Work with me</div>
       <h2>Advisory, collaboration, and <em>speaking</em></h2>
       <p>I take on a small number of advisory and collaborative engagements each year where a practicing oncologist's view of access, payer policy, and real-world data changes the decision. If the question is "will this reach the patients it is meant for," I am probably useful.</p>
       <p>Independent of my institutional roles. Engagements are disclosed per UT Southwestern policy.</p>
@@ -542,14 +603,14 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 <section id="record">
   <div class="wrap">
     <div class="sec-head rv">
-      <div class="num">06 / Record</div>
+      <div class="num">07 / Record</div>
       <h2>Leadership, funding, honors</h2>
     </div>
     <div class="record rv">
       <div class="rec">
         <h3>Leadership &amp; service</h3>
         <dl>
-          <div class="row"><dt>MASCC</dt><dd><b>Co-Chair, Health Access and Disparities Committee,</b> Multinational Association of Supportive Care in Cancer</dd></div>
+          <div class="row"><dt>MASCC</dt><dd><b>Co-Chair, Health Access and Disparities Committee</b> (2025–), Multinational Association of Supportive Care in Cancer; committee member since 2023</dd></div>
           <div class="row"><dt>ASCO</dt><dd><b>Vice President, Research Subcommittee,</b> IMG Community of Practice (2024–)</dd></div>
           <div class="row"><dt>Alliance</dt><dd>Member, Health Disparities Committee, Alliance for Clinical Trials in Oncology (2024–)</dd></div>
           <div class="row"><dt>UTSW</dt><dd>AI Steering Committee (2024–); Flatiron RWE Steering Committee (2025–); Health Equity Research Champion, Parkland / UTSW (2024–)</dd></div>
@@ -589,7 +650,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 <section id="media">
   <div class="wrap">
     <div class="sec-head rv">
-      <div class="num">07 / Media &amp; talks</div>
+      <div class="num">08 / Media &amp; talks</div>
       <h2>In public</h2>
     </div>
     <div class="media rv">
@@ -619,7 +680,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 <section id="background">
   <div class="wrap">
     <div class="sec-head rv">
-      <div class="num">08 / Background</div>
+      <div class="num">09 / Background</div>
       <h2>Where this comes from</h2>
     </div>
     <div class="bio rv">
@@ -642,7 +703,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 <section class="contact" id="contact">
   <div class="wrap">
     <div class="rv">
-      <div class="eyebrow">09 / Contact</div>
+      <div class="eyebrow">10 / Contact</div>
       <h2>Let's talk about who gets the care.</h2>
       <p>Collaboration, advisory roles, data partnerships, speaking, and mentoring inquiries are all welcome. Patients seeking an appointment should use the UT Southwestern clinical profile below.</p>
     </div>

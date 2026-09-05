@@ -4,9 +4,16 @@
 
 ## Focus areas
 - Clinical trial access and equity: leads UT Southwestern's prostate cancer clinical trial access program across a county safety-net hospital (Parkland Health) and community sites, supported by the American Cancer Society (IMPACT Special Initiative Award, PI). Director, GU Clinical Trial Optimization, Parkland Cancer Center. Conquer Cancer Foundation/ASCO Career Development Award on physician-level factors in trial enrollment. Robert A. Winn Excellence in Clinical Trials CDA.
-- Supportive care and health access: Co-Chair, Health Access and Disparities Committee, Multinational Association of Supportive Care in Cancer (MASCC). Research on transportation barriers, financial hardship, palliative care value, and supportive-care drug access.
+- Supportive care and health access: Co-Chair (2025–), Health Access and Disparities Committee, Multinational Association of Supportive Care in Cancer (MASCC); committee member since 2023. Research on transportation barriers, financial hardship, palliative care value, and supportive-care drug access.
 - Insurance design and cancer care delivery: zero-premium Medicare Advantage plans, plan benefit design, prior authorization, oncologist networks, Part D formulary access, Medicaid expansion.
 - AI in the oncology workflow: PI of an NCCN/Pfizer quality improvement award embedding reflex biomarker testing and a molecular-actionability dashboard in the EHR at a safety-net cancer program; member of the UTSW Simmons Cancer Center AI Steering Committee; LLM-generated plain-language trial summaries; scholarship on value alignment and licensure of clinical AI.
+
+## Work under review or under way
+- Variation in clinical trial enrollment among physicians and practices in community oncology (Flatiron Health, 205,743 patients, 1,664 physicians, 107 practices; 20% of physicians account for 80% of enrollments) — under review.
+- Racial and ethnic disparities in trial enrollment across community practices — under review.
+- Scoping review of large language model applications across the oncology clinical trial lifecycle — under review.
+- Commentaries on value alignment in clinical AI and on licensing autonomous clinical AI — under review.
+- ACS IMPACT prostate cancer trial access program (Parkland Health + UTSW regional sites), NCCN biomarker test-to-treatment initiative, COM-B physician interviews, discrete choice experiments on patient preferences — ongoing.
 
 ## Links
 - Homepage: https://cjiang-pyt.github.io/
