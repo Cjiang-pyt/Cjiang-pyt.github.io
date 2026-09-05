@@ -1,31 +1,31 @@
 # Charles Jiang, MD, MPH
 
-> Changchuan (Charles) Jiang is a genitourinary medical oncologist and health services researcher at UT Southwestern Medical Center (Harold C. Simmons Comprehensive Cancer Center) and Parkland Health in Dallas, Texas. Assistant Professor of Internal Medicine (Hematology/Oncology) and in the Peter O'Donnell Jr. School of Public Health.
+> Changchuan (Charles) Jiang is a genitourinary medical oncologist and health services researcher at UT Southwestern Medical Center (Harold C. Simmons Comprehensive Cancer Center; joint appointment, O'Donnell School of Public Health) and an attending physician at Parkland Health, the Dallas County safety-net system. He works on the "last mile" of cancer care: the referral, the insurance benefit design, the supportive care, and the clinical workflow that decide whether a proven treatment reaches the patient.
 
-## Focus areas
-- Clinical trial access and equity: leads UT Southwestern's prostate cancer clinical trial access program across a county safety-net hospital (Parkland Health) and community sites, supported by the American Cancer Society (IMPACT Special Initiative Award, PI). Director, GU Clinical Trial Optimization, Parkland Cancer Center. Conquer Cancer Foundation/ASCO Career Development Award on physician-level factors in trial enrollment. Robert A. Winn Excellence in Clinical Trials CDA.
-- Supportive care and health access: Co-Chair (2025–), Health Access and Disparities Committee, Multinational Association of Supportive Care in Cancer (MASCC); committee member since 2023. Research on transportation barriers, financial hardship, palliative care value, and supportive-care drug access.
-- Insurance design and cancer care delivery: zero-premium Medicare Advantage plans, plan benefit design, prior authorization, oncologist networks, Part D formulary access, Medicaid expansion.
-- AI in the oncology workflow: PI of an NCCN/Pfizer quality improvement award embedding reflex biomarker testing and a molecular-actionability dashboard in the EHR at a safety-net cancer program; member of the UTSW Simmons Cancer Center AI Steering Committee; LLM-generated plain-language trial summaries; scholarship on value alignment and licensure of clinical AI.
+## One-line positioning
+Practicing oncologist who studies the systems that decide who gets cancer care, using national real-world data, and rebuilds those systems in his own clinics. Career model: neither the traditional physician-scientist nor the clinical trialist; runs the delivery side of cancer care.
 
-## Work under review or under way
-- Variation in clinical trial enrollment among physicians and practices in community oncology (Flatiron Health, 205,743 patients, 1,664 physicians, 107 practices; 20% of physicians account for 80% of enrollments) — under review.
-- Racial and ethnic disparities in trial enrollment across community practices — under review.
-- Scoping review of large language model applications across the oncology clinical trial lifecycle — under review.
-- Commentaries on value alignment in clinical AI and on licensing autonomous clinical AI — under review.
-- ACS IMPACT prostate cancer trial access program (Parkland Health + UTSW regional sites), NCCN biomarker test-to-treatment initiative, COM-B physician interviews, discrete choice experiments on patient preferences — ongoing.
+## Four areas (all under one question: will this reach the patients it is meant for?)
+1. Clinical trial access (the referral). Leads UT Southwestern's prostate cancer trial access program at Parkland Health and community sites (American Cancer Society IMPACT award, PI, 2025-2027); Director, GU Clinical Trial Optimization, Parkland Cancer Center; ASCO/Conquer Cancer Career Development Award on physician-level referral behavior; Robert A. Winn Excellence in Clinical Trials CDA. Navigation and physician engagement doubled enrollment of underrepresented patients. National Flatiron Health analysis (205,743 patients, 1,664 physicians, 107 practices): 5.3% enrolled; physician- and practice-level factors explain more variation than patient factors; 20% of physicians account for 80% of enrollments (manuscripts under review). Key paper: Empowering oncologists, Nature Reviews Clinical Oncology 2025 (first author).
+2. Supportive care (the support). Co-Chair, Health Access and Disparities Committee, Multinational Association of Supportive Care in Cancer (MASCC), since 2025; member since 2023. Transportation barriers and mortality (JAMA Oncology 2022; JNCI 2023), financial hardship, value of palliative care (Annals of Internal Medicine 2024, senior author; Co-I, NCI R37 UNCOVER-PC), prior-authorization barriers to supportive medications.
+3. Insurance benefit design (the benefit design). Medicare Advantage and Part D: zero-premium plan growth (JNCI 2026), oncologist networks (JAMA Network Open 2026), primary care cost sharing (JAMA Health Forum 2026), treatment initiation MA vs traditional Medicare in metastatic prostate cancer (JCO Oncology Practice 2026).
+4. Clinical workflow and AI (the workflow). PI, NCCN/Pfizer quality improvement award embedding reflex biomarker testing and a molecular-actionability dashboard in the EHR at a safety-net cancer program; member, Simmons Cancer Center AI Steering Committee and Flatiron RWE Steering Committee; LLM-generated plain-language trial summaries; scoping review of LLMs across the oncology trial lifecycle and two commentaries on clinical AI governance under review.
+
+## Advisory, collaboration, speaking
+Independent advisory for clinical development (trial feasibility, patient access, community and safety-net site activation), medical affairs / RWE / HEOR / market access (evidence and payer strategy; Medicare Advantage, Part D, utilization management), and clinical AI / care delivery teams (workflow and product evaluation). Research collaboration and speaking (grand rounds, CME; recent: Emory, ASCO, MASCC). Engagements are independent of institutional roles and subject to institutional disclosure requirements.
+
+## Quick facts
+- 2,500+ citations, h-index 19, 80+ peer-reviewed papers (Google Scholar, Sept 2026)
+- $1.09M active grant funding as PI; 50+ multicenter trials as site PI or co-investigator
+- Training: MD Soochow University; MPH Yale; residency Mount Sinai; hematology/oncology fellowship Roswell Park; ABIM Medical Oncology
+- Honors: Clinical Trial Diversity Champion, Simmons Cancer Center (2025); PCF Thought Leaders of the Future (2023); five ASCO Conquer Cancer Merit Awards
+- Co-founder, ANACP Mentoring Program (60+ mentors, 100+ mentees); Vice President, Research Subcommittee, ASCO IMG Community of Practice
 
 ## Links
 - Homepage: https://cjiang-pyt.github.io/
+- Email: changchuan.jiang@utsouthwestern.edu
+- LinkedIn: https://www.linkedin.com/in/changchuan-charles-jiang-54787080/
 - Google Scholar: https://scholar.google.com/citations?user=oi1O0T8AAAAJ
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=Jiang+Changchuan%5BAuthor%5D
 - X: https://x.com/CharlesJiangMD
-- LinkedIn: https://www.linkedin.com/in/changchuan-charles-jiang-54787080/
-- Clinical profile: https://utswmed.org/doctors/charles-jiang/
-- Email: changchuan.jiang@utsouthwestern.edu
-
-## Advisory areas
-1. Trial feasibility and patient access (clinical development teams, CROs, trial networks): protocol feasibility, enrollment barrier assessment, referral and screening workflows, community and safety-net site activation.
-2. Evidence, access, and payer strategy (medical affairs, RWE, HEOR, market access): research concept review, observational design with Flatiron Health, ConcertAI, SEER-Medicare, Epic Cosmos; Medicare Advantage and Part D benefit design, utilization management, drug pricing and shortages, financial toxicity.
-3. Clinical workflow, AI, and supportive care (oncology technology, clinical AI, care delivery teams): use-case review, workflow assessment, pilot evaluation frameworks, patient-facing communication design.
-Also: research collaborations, grand rounds, CME, and speaking. Engagements are independent of institutional roles and subject to institutional disclosure requirements.
+- Clinical profile (patients): https://utswmed.org/doctors/charles-jiang/
