@@ -23,7 +23,6 @@ Independent advisory for clinical development (trial feasibility, patient access
 
 ## Links
 - Homepage: https://cjiang-pyt.github.io/
-- Email: changchuan.jiang@utsouthwestern.edu
 - LinkedIn: https://www.linkedin.com/in/changchuan-charles-jiang-54787080/
 - Google Scholar: https://scholar.google.com/citations?user=oi1O0T8AAAAJ
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=Jiang+Changchuan%5BAuthor%5D
