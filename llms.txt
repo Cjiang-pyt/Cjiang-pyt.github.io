@@ -1,25 +1,28 @@
 # Charles Jiang, MD, MPH
 
-> Changchuan (Charles) Jiang is a medical oncologist specializing in genitourinary cancers (prostate, bladder, and kidney) and a health services researcher in Dallas, Texas, with a joint faculty appointment in medicine and public health. He practices at both an NCI-designated comprehensive cancer center and a county safety-net hospital. He works on the "last mile" of cancer care: the referral, the insurance benefit design, the supportive care, and the clinical workflow that decide whether a proven treatment reaches the patient.
+> Changchuan (Charles) Jiang, MD, MPH, is a medical oncologist and health services researcher in Dallas, Texas. He treats prostate, bladder, and kidney cancers and works on access to cancer care: clinical trial enrollment, supportive care, insurance benefit design, and clinical workflows and AI. He is available for advisory work, research collaboration, and speaking.
 
-## One-line positioning
-Practicing oncologist who studies the systems that decide who gets cancer care, using national real-world data, and rebuilds those systems in his own clinics. Career model: neither the traditional physician-scientist nor the clinical trialist; runs the delivery side of cancer care.
+## Short bio
+Changchuan (Charles) Jiang, MD, MPH, is a medical oncologist and health services researcher in Dallas, Texas. He treats prostate, bladder, and kidney cancers and holds a joint faculty appointment in medicine and public health, with clinical practice at both an NCI-designated cancer center and a county safety-net hospital. He leads a prostate cancer trial access program funded by the American Cancer Society and co-chairs the Health Access and Disparities Committee of the Multinational Association of Supportive Care in Cancer (MASCC). He has published more than 80 peer-reviewed papers, in journals including Nature Reviews Clinical Oncology, JNCI, JAMA Oncology, and Annals of Internal Medicine. He trained at Soochow University (MD), Yale School of Public Health (MPH), Mount Sinai (internal medicine residency), and Roswell Park Comprehensive Cancer Center (hematology and oncology fellowship).
 
-## Four areas (all under one question: will this reach the patients it is meant for?)
-1. Clinical trial access (the referral). Leads a prostate cancer trial access program across a county safety-net hospital and community sites (American Cancer Society IMPACT award, PI, 2025-2027); directs genitourinary clinical trial optimization for the safety-net cancer program; ASCO/Conquer Cancer Career Development Award on physician-level referral behavior; Robert A. Winn Excellence in Clinical Trials CDA. Navigation and physician engagement doubled enrollment of underrepresented patients. National Flatiron Health analysis (205,743 patients, 1,664 physicians, 107 practices): 5.3% enrolled; physician- and practice-level factors explain more variation than patient factors; 20% of physicians account for 80% of enrollments (manuscripts under review). Key paper: Empowering oncologists, Nature Reviews Clinical Oncology 2025 (first author).
-2. Supportive care (the support). Co-Chair, Health Access and Disparities Committee, Multinational Association of Supportive Care in Cancer (MASCC), since 2025; member since 2023. Transportation barriers and mortality (JAMA Oncology 2022; JNCI 2023), financial hardship, value of palliative care (Annals of Internal Medicine 2024, senior author; Co-I, NCI R37 UNCOVER-PC), prior-authorization barriers to supportive medications.
-3. Insurance benefit design (the benefit design). Medicare Advantage and Part D: zero-premium plan growth (JNCI 2026), oncologist networks (JAMA Network Open 2026), primary care cost sharing (JAMA Health Forum 2026), treatment initiation MA vs traditional Medicare in metastatic prostate cancer (JCO Oncology Practice 2026).
-4. Clinical workflow and AI (the workflow). PI, NCCN/Pfizer quality improvement award embedding reflex biomarker testing and a molecular-actionability dashboard in the EHR at a safety-net cancer program; member of his cancer center's AI and real-world evidence steering committees; LLM-generated plain-language trial summaries; scoping review of LLMs across the oncology trial lifecycle and two commentaries on clinical AI governance under review.
+## What he works on
+- Clinical trial access: leads a prostate cancer trial access program at a county safety-net hospital and community sites (American Cancer Society IMPACT award, PI) and directs GU clinical trial optimization for the safety-net program. Navigation and physician engagement doubled enrollment of underrepresented patients. Under an ASCO Career Development Award he studies physician and practice variation in trial enrollment nationally (205,743 patients, 1,664 physicians, 107 community practices; about 20% of physicians account for 80% of enrollments; manuscripts under review).
+- Supportive care: Co-Chair of the MASCC Health Access and Disparities Committee (member since 2023, co-chair since 2025). Research on transportation barriers, financial hardship, the value of palliative care, and insurance barriers to supportive medications.
+- Insurance and access: how Medicare Advantage and Part D plan design affects oncologist networks, prior authorization, drug coverage, and time to treatment.
+- Clinical workflow and AI: PI of an NCCN-supported project building reflex biomarker testing and a results dashboard into the EHR for metastatic prostate cancer at a safety-net program; member of his cancer center's AI steering committee; large language model drafts of plain-language trial summaries for patients.
 
-## Advisory, collaboration, speaking
-Independent advisory for clinical development (trial feasibility, patient access, community and safety-net site activation; clinical depth in prostate, bladder, and kidney cancer), medical affairs / RWE / HEOR / market access (evidence and payer strategy; Medicare Advantage, Part D, utilization management), and clinical AI / care delivery teams (workflow and product evaluation). Research collaboration and speaking (grand rounds, CME; recent: Emory, ASCO, MASCC). Engagements are independent of institutional roles and subject to institutional disclosure requirements.
+## Advisory and collaboration
+- Clinical development and trial teams: feasibility and enrollment planning, eligibility and visit-burden review, site activation in community and safety-net settings; clinical depth in prostate, bladder, and kidney cancer.
+- Medical affairs, HEOR, and market access: real-world evidence design and interpretation, Medicare Advantage and Part D, utilization management, patient access barriers.
+- Health technology and AI teams: clinical use-case review, workflow fit, evaluation design.
+- Also open to research collaborations, advisory boards, grand rounds, and CME.
+- Contact: LinkedIn message (https://www.linkedin.com/in/changchuan-charles-jiang-54787080/).
 
 ## Quick facts
-- 2,500+ citations, h-index 19, 80+ peer-reviewed papers (Google Scholar, Sept 2026)
-- $1.09M active grant funding as PI; 50+ multicenter trials as site PI or co-investigator
-- Training: MD Soochow University; MPH Yale; residency Mount Sinai; hematology/oncology fellowship Roswell Park; ABIM Medical Oncology
-- Honors: Clinical Trial Diversity Champion award (2025); PCF Thought Leaders of the Future (2023); five ASCO Conquer Cancer Merit Awards
-- Co-founder, ANACP Mentoring Program (60+ mentors, 100+ mentees); Vice President, Research Subcommittee, ASCO IMG Community of Practice
+- More than 2,500 citations and 80 peer-reviewed papers; h-index 19 (Google Scholar, September 2026)
+- $1.09M in active grants as principal investigator; 50+ multicenter trials as site PI or co-investigator
+- Honors: Clinical Trial Diversity Champion award (2025); Prostate Cancer Foundation Thought Leaders of the Future (2023); five ASCO Conquer Cancer Merit Awards
+- Co-founder, ANACP Mentoring Program; Vice President, Research Subcommittee, ASCO IMG Community of Practice
 
 ## Affiliation and disclaimer
 Assistant Professor of Internal Medicine and Public Health, UT Southwestern Medical Center. Affiliations are listed for identification only. Views on this site are his own and do not represent his employer or any affiliated institution. Advisory work is done in a personal capacity and disclosed under institutional conflict-of-interest policies.
@@ -27,7 +30,10 @@ Assistant Professor of Internal Medicine and Public Health, UT Southwestern Medi
 ## Links
 - Homepage: https://cjiang-pyt.github.io/
 - LinkedIn: https://www.linkedin.com/in/changchuan-charles-jiang-54787080/
+- ORCID: https://orcid.org/0000-0002-7392-4154
 - Google Scholar: https://scholar.google.com/citations?user=oi1O0T8AAAAJ
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=Jiang+Changchuan%5BAuthor%5D
 - X: https://x.com/CharlesJiangMD
 - Clinical profile for patients: https://utswmed.org/doctors/charles-jiang/
+
+Last updated: 2026-09-28
