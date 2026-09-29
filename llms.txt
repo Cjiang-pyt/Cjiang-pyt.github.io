@@ -1,15 +1,15 @@
 # Charles Jiang, MD, MPH
 
-> Changchuan (Charles) Jiang is a genitourinary medical oncologist and health services researcher at UT Southwestern Medical Center (Harold C. Simmons Comprehensive Cancer Center; joint appointment, O'Donnell School of Public Health) and an attending physician at Parkland Health, the Dallas County safety-net system. He works on the "last mile" of cancer care: the referral, the insurance benefit design, the supportive care, and the clinical workflow that decide whether a proven treatment reaches the patient.
+> Changchuan (Charles) Jiang is a genitourinary medical oncologist and health services researcher in Dallas, Texas, with a joint faculty appointment in medicine and public health. He practices at both an NCI-designated comprehensive cancer center and a county safety-net hospital. He works on the "last mile" of cancer care: the referral, the insurance benefit design, the supportive care, and the clinical workflow that decide whether a proven treatment reaches the patient.
 
 ## One-line positioning
 Practicing oncologist who studies the systems that decide who gets cancer care, using national real-world data, and rebuilds those systems in his own clinics. Career model: neither the traditional physician-scientist nor the clinical trialist; runs the delivery side of cancer care.
 
 ## Four areas (all under one question: will this reach the patients it is meant for?)
-1. Clinical trial access (the referral). Leads UT Southwestern's prostate cancer trial access program at Parkland Health and community sites (American Cancer Society IMPACT award, PI, 2025-2027); Director, GU Clinical Trial Optimization, Parkland Cancer Center; ASCO/Conquer Cancer Career Development Award on physician-level referral behavior; Robert A. Winn Excellence in Clinical Trials CDA. Navigation and physician engagement doubled enrollment of underrepresented patients. National Flatiron Health analysis (205,743 patients, 1,664 physicians, 107 practices): 5.3% enrolled; physician- and practice-level factors explain more variation than patient factors; 20% of physicians account for 80% of enrollments (manuscripts under review). Key paper: Empowering oncologists, Nature Reviews Clinical Oncology 2025 (first author).
+1. Clinical trial access (the referral). Leads a prostate cancer trial access program across a county safety-net hospital and community sites (American Cancer Society IMPACT award, PI, 2025-2027); directs GU clinical trial optimization for the safety-net cancer program; ASCO/Conquer Cancer Career Development Award on physician-level referral behavior; Robert A. Winn Excellence in Clinical Trials CDA. Navigation and physician engagement doubled enrollment of underrepresented patients. National Flatiron Health analysis (205,743 patients, 1,664 physicians, 107 practices): 5.3% enrolled; physician- and practice-level factors explain more variation than patient factors; 20% of physicians account for 80% of enrollments (manuscripts under review). Key paper: Empowering oncologists, Nature Reviews Clinical Oncology 2025 (first author).
 2. Supportive care (the support). Co-Chair, Health Access and Disparities Committee, Multinational Association of Supportive Care in Cancer (MASCC), since 2025; member since 2023. Transportation barriers and mortality (JAMA Oncology 2022; JNCI 2023), financial hardship, value of palliative care (Annals of Internal Medicine 2024, senior author; Co-I, NCI R37 UNCOVER-PC), prior-authorization barriers to supportive medications.
 3. Insurance benefit design (the benefit design). Medicare Advantage and Part D: zero-premium plan growth (JNCI 2026), oncologist networks (JAMA Network Open 2026), primary care cost sharing (JAMA Health Forum 2026), treatment initiation MA vs traditional Medicare in metastatic prostate cancer (JCO Oncology Practice 2026).
-4. Clinical workflow and AI (the workflow). PI, NCCN/Pfizer quality improvement award embedding reflex biomarker testing and a molecular-actionability dashboard in the EHR at a safety-net cancer program; member, Simmons Cancer Center AI Steering Committee and Flatiron RWE Steering Committee; LLM-generated plain-language trial summaries; scoping review of LLMs across the oncology trial lifecycle and two commentaries on clinical AI governance under review.
+4. Clinical workflow and AI (the workflow). PI, NCCN/Pfizer quality improvement award embedding reflex biomarker testing and a molecular-actionability dashboard in the EHR at a safety-net cancer program; member of his cancer center's AI and real-world evidence steering committees; LLM-generated plain-language trial summaries; scoping review of LLMs across the oncology trial lifecycle and two commentaries on clinical AI governance under review.
 
 ## Advisory, collaboration, speaking
 Independent advisory for clinical development (trial feasibility, patient access, community and safety-net site activation), medical affairs / RWE / HEOR / market access (evidence and payer strategy; Medicare Advantage, Part D, utilization management), and clinical AI / care delivery teams (workflow and product evaluation). Research collaboration and speaking (grand rounds, CME; recent: Emory, ASCO, MASCC). Engagements are independent of institutional roles and subject to institutional disclosure requirements.
@@ -18,8 +18,11 @@ Independent advisory for clinical development (trial feasibility, patient access
 - 2,500+ citations, h-index 19, 80+ peer-reviewed papers (Google Scholar, Sept 2026)
 - $1.09M active grant funding as PI; 50+ multicenter trials as site PI or co-investigator
 - Training: MD Soochow University; MPH Yale; residency Mount Sinai; hematology/oncology fellowship Roswell Park; ABIM Medical Oncology
-- Honors: Clinical Trial Diversity Champion, Simmons Cancer Center (2025); PCF Thought Leaders of the Future (2023); five ASCO Conquer Cancer Merit Awards
+- Honors: Clinical Trial Diversity Champion award (2025); PCF Thought Leaders of the Future (2023); five ASCO Conquer Cancer Merit Awards
 - Co-founder, ANACP Mentoring Program (60+ mentors, 100+ mentees); Vice President, Research Subcommittee, ASCO IMG Community of Practice
+
+## Affiliation and disclaimer
+Assistant Professor of Internal Medicine and Public Health, UT Southwestern Medical Center. Affiliations are listed for identification only. Views on this site are his own and do not represent his employer or any affiliated institution. Advisory work is done in a personal capacity and disclosed under institutional conflict-of-interest policies.
 
 ## Links
 - Homepage: https://cjiang-pyt.github.io/
@@ -27,4 +30,4 @@ Independent advisory for clinical development (trial feasibility, patient access
 - Google Scholar: https://scholar.google.com/citations?user=oi1O0T8AAAAJ
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/?term=Jiang+Changchuan%5BAuthor%5D
 - X: https://x.com/CharlesJiangMD
-- Clinical profile (patients): https://utswmed.org/doctors/charles-jiang/
+- Clinical profile for patients: https://utswmed.org/doctors/charles-jiang/
