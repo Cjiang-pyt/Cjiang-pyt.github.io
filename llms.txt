@@ -18,6 +18,11 @@ Changchuan (Charles) Jiang, MD, MPH, is a medical oncologist and health services
 - Palliative care for advanced cancer in Medicare Advantage and physician networks. JAMA Netw Open. 2026. Co-author. https://pubmed.ncbi.nlm.nih.gov/42814462/
 - Beyond the clinic: neighborhood poverty and end-of-life care in cancer. JNCCN. 2026. Senior author. https://pubmed.ncbi.nlm.nih.gov/42753801/
 
+## Latest writing, talks, and media (October 2026)
+- Writing: LinkedIn post on why biomarker-selected phase III cancer trials enroll slowly (about 0.2 patients per site per month vs 1.3 for other trials), based on an ASCO Quality Care Symposium 2026 abstract with his mentee. https://www.linkedin.com/feed/update/urn:li:activity:7517274957517799425/
+- Talk: discussant for the opening oral abstract session, ASCO Quality Care Symposium 2026.
+- Media: MedPage Today coverage of the medical debt study (October 8, 2026): https://www.medpagetoday.com/hematologyoncology/othercancers/123259 ; OncoDaily on trial access (October 7, 2026): https://oncodaily.com/science/changchuan-jiang-603343
+
 ## Advisory and collaboration
 - Clinical development and trial teams: feasibility and enrollment planning, eligibility and visit-burden review, site activation in community and safety-net settings; clinical depth in prostate, bladder, and kidney cancer.
 - Medical affairs, HEOR, and market access: real-world evidence design and interpretation, Medicare Advantage and Part D, utilization management, patient access barriers.
@@ -43,4 +48,4 @@ Assistant Professor of Internal Medicine and Public Health, UT Southwestern Medi
 - X: https://x.com/CharlesJiangMD
 - Clinical profile for patients: https://utswmed.org/doctors/charles-jiang/
 
-Last updated: 2026-10-11
+Last updated: 2026-10-18

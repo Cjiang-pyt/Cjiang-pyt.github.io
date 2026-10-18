@@ -45,7 +45,7 @@
       "name": "Charles Jiang, MD, MPH | Medical Oncologist and Health Services Researcher",
       "isPartOf": {"@id": "https://cjiang-pyt.github.io/#website"},
       "mainEntity": {"@id": "https://cjiang-pyt.github.io/#person"},
-      "dateModified": "2026-10-11"
+      "dateModified": "2026-10-18"
     },
     {
       "@type": "Person",
@@ -137,7 +137,10 @@ p+p{margin-top:12px}
 .degree{font-size:15.5px;color:var(--soft)}
 .thesis{font:400 clamp(23px,2.7vw,30px)/1.3 var(--serif);margin:26px 0 18px;max-width:30ch;color:var(--ink)}
 .thesis em{font-style:italic;color:var(--green)}
-.lede{font-size:18px;color:var(--muted);max-width:60ch}
+.intro{max-width:62ch}
+.intro p{font-size:18px;line-height:1.55;color:var(--muted);padding-left:16px;border-left:2px solid var(--green-soft)}
+.intro p+p{margin-top:10px}
+.intro p:first-child{color:var(--ink);font-weight:500}
 .actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
 .btn{display:inline-flex;align-items:center;min-height:44px;padding:0 20px;border-radius:999px;font:500 15px/1 var(--sans);text-decoration:none;border:1px solid var(--rule);background:var(--white);color:var(--ink);transition:border-color .2s,background .2s,color .2s}
 .btn:hover{border-color:var(--green);color:var(--green-dark)}
@@ -172,6 +175,21 @@ section.tint{background:var(--mint)}
 .pub-card h3 a{color:var(--ink);text-decoration:none}
 .pub-card h3 a:hover{color:var(--green-dark);text-decoration:underline}
 .pub-card p{font-size:15.5px;color:var(--muted)}
+
+/* latest */
+.latest{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.latest .pub-card .kind{font:600 12px/1.5 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--green)}
+.latest .pub-card .go{margin-top:auto;font-size:14.5px;font-weight:500}
+.news{margin-top:18px;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;font-size:14.5px;color:var(--muted)}
+.news strong{font-weight:600;color:var(--ink)}
+.more-papers{margin-top:34px}
+.more-papers h3{font:600 12px/1.5 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--green);margin-bottom:6px}
+.more-papers ul{list-style:none;margin:0;padding:0}
+.more-papers li{display:grid;grid-template-columns:200px 1fr;gap:18px;padding:14px 0;border-bottom:1px solid var(--mint-2);font-size:15.5px}
+.more-papers .j{font-size:13.5px;color:var(--soft)}
+.more-papers a{color:var(--ink);text-decoration:none;font-weight:500}
+.more-papers a:hover{color:var(--green-dark);text-decoration:underline}
+.more-papers .d{display:block;color:var(--muted);font-size:14.5px;margin-top:3px}
 
 /* bio */
 .bio{background:var(--white);border:1px solid var(--rule);border-radius:var(--radius);padding:28px 32px}
@@ -223,7 +241,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   .portrait figcaption{margin:0}
   .facts{grid-template-columns:1fr 1fr}
   section{padding:52px 0}
-  .recent,.areas,.together,.record{grid-template-columns:1fr}
+  .recent,.areas,.together,.record,.latest{grid-template-columns:1fr}
+  .more-papers li{grid-template-columns:1fr;gap:2px}
   .bio{padding:22px 22px}
   .area{padding:22px}
   .highlights li{grid-template-columns:1fr;gap:2px}
@@ -237,7 +256,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 <nav class="nav" aria-label="Primary"><div class="wrap">
   <a class="brand" href="#top">Charles Jiang<span>.</span></a>
   <ul>
-    <li><a href="#recent">Recent</a></li>
+    <li><a href="#recent">Latest</a></li>
     <li><a href="#work">Work</a></li>
     <li><a href="#working-together">Working together</a></li>
     <li><a href="#record">Record</a></li>
@@ -251,7 +270,12 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
       <h1>Charles Jiang</h1>
       <p class="degree">Changchuan "Charles" Jiang, MD, MPH</p>
       <p class="thesis">My focus is the <em>last mile</em> of cancer care: getting proven treatments, clinical trials, and supportive care to the patients who need them.</p>
-      <p class="lede">I treat prostate, bladder, and kidney cancers at an academic cancer center and a county safety-net hospital. In research, I use national real-world data to find where patients drop out of care. In the clinic, I build and run the programs meant to close those gaps, including trial referral, patient navigation, and EHR-based testing workflows.</p>
+      <div class="intro">
+        <p>I am a medical oncologist and a health services researcher.</p>
+        <p>I see patients with prostate, bladder, and kidney cancer at an academic cancer center and a county safety-net hospital.</p>
+        <p>I use national real-world data to find where patients drop out of care, and I run clinic programs to close those gaps, from trial referral to EHR-based testing.</p>
+        <p>I advise trial, medical affairs, and health technology teams, and I write and speak often about how cancer care reaches patients.</p>
+      </div>
       <div class="actions">
         <a class="btn primary" href="#working-together">Advisory &amp; collaboration</a>
         <a class="btn" href="https://www.linkedin.com/in/changchuan-charles-jiang-54787080/" target="_blank" rel="me noopener">LinkedIn</a>
@@ -273,35 +297,44 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 
 <section class="tint" id="recent"><div class="wrap">
   <div class="head">
-    <div><p class="label">Recent publications</p><h2>New this fall</h2></div>
-    <p>Five papers from September and October 2026.</p>
+    <div><p class="label">Latest</p><h2>Research, writing, and talks</h2></div>
+    <p>Updated October 2026.</p>
   </div>
-  <div class="recent">
-    <article class="pub-card wide">
-      <div class="meta"><span class="chip">JAMA Network Open</span><span>October 2026</span><span>First author</span></div>
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42837155/" target="_blank" rel="noopener">Physician- and practice-level variation in clinical trial participation among patients with advanced cancer</a></h3>
-      <p>Of 205,743 patients with advanced cancer treated in 107 community practices, 5.2% joined a trial. About a quarter of physicians accounted for 84% of enrollments, nearly 30% enrolled no one, and the physician and practice explained more of the variation than anything measured about the patient. Published with an invited commentary.</p>
+  <div class="latest">
+    <article class="pub-card">
+      <p class="kind">Latest research</p>
+      <div class="meta"><span class="chip">JAMA Network Open</span><span>October 2026</span></div>
+      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42837155/" target="_blank" rel="noopener">Who gets into cancer trials depends on the doctor and the practice</a></h3>
+      <p>Of 205,743 patients with advanced cancer in 107 community practices, 5.2% joined a trial. About a quarter of physicians accounted for 84% of enrollments, and nearly 30% enrolled no one. Published with an invited commentary.</p>
+      <a class="go" href="https://pubmed.ncbi.nlm.nih.gov/42837155/" target="_blank" rel="noopener">Read the paper</a>
     </article>
     <article class="pub-card">
-      <div class="meta"><span class="chip sky">JAMA</span><span>September 2026</span><span>Sole author</span></div>
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42814453/" target="_blank" rel="noopener">Licensure framework for autonomous clinical artificial intelligence</a></h3>
-      <p>A letter on proposals to license autonomous clinical AI the way we license physicians. Because these systems change with every model, prompt, and workflow update, licensure needs clear rules for which changes require re-testing.</p>
+      <p class="kind">Latest writing</p>
+      <div class="meta"><span class="chip sky">LinkedIn</span><span>October 2026</span></div>
+      <h3><a href="https://www.linkedin.com/feed/update/urn:li:activity:7517274957517799425/" target="_blank" rel="noopener">Why precision oncology trials fill so slowly</a></h3>
+      <p>Phase III trials that require a common biomarker enroll about 0.2 patients per site per month, compared with 1.3 for other trials. Most of the delay sits in steps no protocol counts: ordering the test, finding tissue, and waiting for the result.</p>
+      <a class="go" href="https://www.linkedin.com/feed/update/urn:li:activity:7517274957517799425/" target="_blank" rel="noopener">Read the post</a>
     </article>
     <article class="pub-card">
-      <div class="meta"><span class="chip">JAMA Network Open</span><span>October 2026</span><span>Senior author</span></div>
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42821259/" target="_blank" rel="noopener">Medical debt and advanced cancer stage at diagnosis</a></h3>
-      <p>Across 2,958 US counties, places with more medical debt in collections had higher rates of late-stage diagnosis for lung, colorectal, cervical, kidney, bladder, head and neck cancers, and melanoma.</p>
+      <p class="kind">Latest talk</p>
+      <div class="meta"><span class="chip">ASCO Quality Care Symposium</span><span>October 2026</span></div>
+      <h3><a href="https://www.linkedin.com/feed/update/urn:li:activity:7516874128964898817/" target="_blank" rel="noopener">Discussant, opening oral abstract session</a></h3>
+      <p>I discussed two studies. One found that ACA reforms reduced large credit-score drops among patients with cancer. The other, a Food is Medicine trial, did not improve mood or quality of life.</p>
+      <a class="go" href="https://www.linkedin.com/feed/update/urn:li:activity:7516874128964898817/" target="_blank" rel="noopener">My notes on the session</a>
     </article>
-    <article class="pub-card">
-      <div class="meta"><span class="chip">JAMA Network Open</span><span>September 2026</span><span>Co-author</span></div>
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42814462/" target="_blank" rel="noopener">Palliative care for advanced cancer in Medicare Advantage and physician networks</a></h3>
-      <p>Among 135,402 Medicare patients with advanced cancer, Medicare Advantage enrollees received palliative care more often, and most of that difference traced back to which oncologists were in their plan's network.</p>
-    </article>
-    <article class="pub-card">
-      <div class="meta"><span class="chip">JNCCN</span><span>September 2026</span><span>Senior author</span></div>
-      <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42753801/" target="_blank" rel="noopener">Beyond the clinic: neighborhood poverty and end-of-life care in cancer</a></h3>
-      <p>A commentary with Xin Hu on why the resources around a patient's home, not only what happens in clinic, shape end-of-life care for young adults with cancer.</p>
-    </article>
+  </div>
+  <div class="news"><strong>In the news:</strong>
+    <a href="https://www.medpagetoday.com/hematologyoncology/othercancers/123259" target="_blank" rel="noopener">MedPage Today on our medical debt study (Oct 2026)</a>
+    <a href="https://oncodaily.com/science/changchuan-jiang-603343" target="_blank" rel="noopener">OncoDaily on trial access (Oct 2026)</a>
+  </div>
+  <div class="more-papers">
+    <h3>Other papers this fall</h3>
+    <ul>
+      <li><span class="j">JAMA, Sept 2026, sole author</span><span><a href="https://pubmed.ncbi.nlm.nih.gov/42814453/" target="_blank" rel="noopener">Licensure framework for autonomous clinical artificial intelligence</a><span class="d">A letter arguing that licensure should cover the deployed clinical service, with clear rules for which updates require re-testing. The original authors accepted the change in their reply.</span></span></li>
+      <li><span class="j">JAMA Netw Open, Oct 2026, senior author</span><span><a href="https://pubmed.ncbi.nlm.nih.gov/42821259/" target="_blank" rel="noopener">Medical debt and advanced cancer stage at diagnosis</a><span class="d">Across 2,958 US counties, more medical debt went with more late-stage diagnoses in seven cancer types.</span></span></li>
+      <li><span class="j">JAMA Netw Open, Sept 2026, co-author</span><span><a href="https://pubmed.ncbi.nlm.nih.gov/42814462/" target="_blank" rel="noopener">Palliative care for advanced cancer in Medicare Advantage and physician networks</a><span class="d">Medicare Advantage enrollees used more palliative care, mostly because of which oncologists their plans included.</span></span></li>
+      <li><span class="j">JNCCN, Sept 2026, senior author</span><span><a href="https://pubmed.ncbi.nlm.nih.gov/42753801/" target="_blank" rel="noopener">Beyond the clinic: neighborhood poverty and end-of-life care in cancer</a><span class="d">A commentary with Xin Hu on how neighborhood resources shape end-of-life care for young adults with cancer.</span></span></li>
+    </ul>
   </div>
 </div></section>
 
@@ -394,7 +427,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 </div></section>
 
 <footer><div class="wrap">
-  <div>© 2026 Changchuan (Charles) Jiang, MD, MPH · Dallas, Texas · Last updated <time datetime="2026-10-11">October 11, 2026</time> · Full CV available on request</div>
+  <div>© 2026 Changchuan (Charles) Jiang, MD, MPH · Dallas, Texas · Last updated <time datetime="2026-10-18">October 18, 2026</time> · Full CV available on request</div>
   <div>Personal website. Views are my own and do not represent my employer or any affiliated institution.</div>
 </div></footer>
 
